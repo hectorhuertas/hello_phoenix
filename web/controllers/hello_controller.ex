@@ -9,4 +9,8 @@ defmodule HelloPhoenix.HelloController do
   def show(conn, %{"messenger" => messengerX}) do
     render conn, :show, messenger: messengerX
   end
+
+  # def show(conn, _params) do
+  #   render conn, :index
+  # end
 end
